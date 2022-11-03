@@ -9,8 +9,6 @@ def fibonacci(position):
     return 1
   if (position < 0):
     return None
-  if (position == 0):
-    return position
   return fibonacci(position - 1) + fibonacci(position - 2)
   
 
